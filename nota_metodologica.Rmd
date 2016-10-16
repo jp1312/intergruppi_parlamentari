@@ -1,0 +1,120 @@
+---
+title: "nota_metodologica"
+author: "jprimav"
+date: "Monday, October 17, 2016"
+output: html_document
+---
+
+# Creazione base dati intergruppi parlamentari
+
+## Fonte dati
+
+### Nomi intergruppi
+A partire dalla seguente query "Intergruppi parlamentari Italia" (e simili) su Google circa 94,300 risultati
+
+visionando le prime 5 schermate di google (50 risultati) ho individuato la menzione di circa 40 intergruppi
+
+nessuna lista ufficiale, nessuna voce di wikipedia, nessuna lista ufficiale sui siti istituzionali di camera e senato individuata
+
+le informazioni provengono per la grande maggioranza da estratti di articoli di giornale. Molti gruppi individuati grazie ai comunicati stampa di camera e senato.
+
+Altri grazie a siti di informazione di settore o pagine facebook
+
+
+### Estrazione informazione
+Informazioni su denominazione, referenti, esistenza account twitter, attivita, ecc. trascritta manualmente nel database
+
+Informazioni sulle liste degli aderenti ottenuta trasportata su excel, ripulita e caricata in R
+
+Dati open polis su 950 parlamentari (indice produttivita ecc.) ottenuti tramite scraping pagina web
+
+Dati camera.it ottenuti tramite interrogazione API da R
+
+
+
+
+## Tabelle costruite
+
+### Table_intergruppi
+- id_integrgruppo (chiave)
+- denominazione_completa
+- denominazione_corta
+- anno_prima_costituzione
+- associazione_collegata
+- fonte
+- totale_aderenti_parlamentari
+- sottotitolo
+- categoria
+- attivita
+- elenco_aderenti
+- aderenti_misti
+- sito_web
+- facebook
+- twitter
+- riferimento
+
+
+### Table_aderenti
+- parlamentare  (chiave)
+- id_intergruppo (chiave)
+- indice_prod
+- voti_ribelli
+- presenze_perc
+- assenze_perc
+- missioni_perc  
+- circoscrizione 
+- followers_OP
+- Gruppo
+- camera
+- info          
+- dataNascita
+- luogoNascita 
+- genere
+- numeroMandati 
+  
+
+### Table_openpolis
+- parlamentare (chiave)
+- indice_prod
+- voti_ribelli
+- presenze_perc
+- assenze_perc
+- missioni_perc 
+- circoscrizione
+- followers_OP
+- Gruppo
+- camera
+  
+
+### Table_camera
+- parlamentare (chiave)
+- cognome
+- nome
+- info
+- dataNascita
+- luogoNascita
+- genere       
+- numeroMandati
+  
+
+
+## Analisi
+
+unendo le informazioni nelle tabelle e con i pacchetti R:
+
+library(ggplot2)
+library(data.table)
+library(dplyr)
+library(gridExtra)
+library(ggthemes)
+library(tm)
+library(SnowballC)
+library(wordcloud)
+library(extrafont)
+library(extrafontdb)
+library(grid)
+library(gridExtra)
+library(lattice)
+library(plotrix)
+
+analisi tabellari e grafiche presentate nell'articolo
