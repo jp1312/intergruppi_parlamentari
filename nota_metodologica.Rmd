@@ -35,7 +35,7 @@ Dati camera.it ottenuti tramite interrogazione API da R
 
 ## Tabelle costruite
 
-### Table_intergruppi (~/data/intergruppi.RData)
+### Table_intergruppi (~/data/table_intergruppi.RData)
 - id_integrgruppo (chiave)
 - denominazione_completa
 - denominazione_corta
@@ -73,7 +73,7 @@ Dati camera.it ottenuti tramite interrogazione API da R
 - numeroMandati 
   
 
-### Table_openpolis (~/data/OP_clean.RData)
+### Table_openpolis (~/data/parlamentari_clean.RData)
 - parlamentare (chiave)
 - indice_prod
 - voti_ribelli
