@@ -102,19 +102,20 @@ Dati camera.it ottenuti tramite interrogazione API da R
 
 unendo le informazioni nelle tabelle e con i pacchetti R:
 
-library(ggplot2)
-library(data.table)
-library(dplyr)
-library(gridExtra)
-library(ggthemes)
-library(tm)
-library(SnowballC)
-library(wordcloud)
-library(extrafont)
-library(extrafontdb)
-library(grid)
-library(gridExtra)
-library(lattice)
-library(plotrix)
+- library(ggplot2)
+- library(data.table)
+- library(dplyr)
+- library(gridExtra)
+- library(ggthemes)
+- library(tm)
+- library(SnowballC)
+- library(wordcloud)
+- library(extrafont)
+- library(extrafontdb)
+- library(grid)
+- library(gridExtra)
+- library(lattice)
+- library(plotrix)
 
-analisi tabellari e grafiche presentate nell'articolo
+Alcune delle analisi grafiche presentate nell'elaborato di data journalism:
+https://medium.com/@jprimav/la-crisi-dei-partiti-e-un-canale-alternativo-di-comunicazione-tra-societ%C3%A0-e-istituzioni-gli-3a78bafeb315#.l5n4lft2k
