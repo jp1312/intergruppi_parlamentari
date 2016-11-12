@@ -10,3 +10,5 @@ Questo progetto end-to-end ha l'obiettivo di
 - scrivere un articolo di data journalism a partire dall'analisi effettuata
 
 Nella nota metodologica maggiori specifiche sul progetto
+[Link all'articolo](https://medium.com/@jprimav/la-crisi-dei-partiti-e-un-canale-alternativo-di-comunicazione-tra-societ%C3%A0-e-istituzioni-gli-3a78bafeb315#.l5n4lft2k)
+
