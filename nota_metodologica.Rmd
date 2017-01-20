@@ -118,4 +118,4 @@ unendo le informazioni nelle tabelle e con i pacchetti R:
 - library(plotrix)
 
 Alcune delle analisi grafiche presentate nell'elaborato di data journalism
-[Link all'articolo](https://medium.com/@jprimav/la-crisi-dei-partiti-e-un-canale-alternativo-di-comunicazione-tra-societ%C3%A0-e-istituzioni-gli-3a78bafeb315#.l5n4lft2k)
+[Link all'articolo](https://medium.com/@jprimav/associazioni-bipartisan-e-informali-tra-parlamentari-un-bene-o-un-male-d120339e02ab#.xfps0qbgt)
