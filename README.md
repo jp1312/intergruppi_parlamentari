@@ -1,15 +1,16 @@
-# Ricerca su intergruppi parlamentari in Italia
+# Research on 'Intergruppi parlamentari' (IP) in Italy's parliament
 
-Gli intergruppi parlamentari sono libere associazioni tra parlamentari di tutti i partiti per far pressione su specifici temi di interesse agli aderenti. Il fenomeno è molto diffuso, ma poco tracciato. 
-Progetto end-to-end per:
+'Intergruppi parlamentari' (IP) are free associations between parliamentarians of different political parties to push specific topics in the agenda of istitutions. The phenomenon is very spread in Italy's parliament, but few reported or regulated.
 
-- reperire informazioni pubbliche sugli intergruppi parlamentari esistenti
-- strutturare le informazioni rilevate in un piccolo database
-- arricchire il database con informazioni esterne di interesse
-- analizzare i dati cosi strutturati
-- scrivere un articolo di data journalism a partire dall'analisi effettuata
+This end-to-end project was aimed at:
 
-Nella nota metodologica maggiori specifiche sul progetto
+- retrieve public information on existing IP at the time of research
+- structure retrieved informations in a small SQL database
+- enrich database with external data
+- analyze this dataset
+- write an article driven by the findings in the data
 
-[Link all'articolo](https://medium.com/@jprimav/associazioni-bipartisan-e-informali-tra-parlamentari-un-bene-o-un-male-d120339e02ab#.xfps0qbgt)
+More information in the metodological note.
+
+[Link all'articolo](http://slow-data.com/associazioni-bipartisan-e-informali-tra-parlamentari-un-bene-o-un-male/)
 
