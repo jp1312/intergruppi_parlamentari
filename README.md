@@ -12,5 +12,3 @@ This end-to-end project was aimed at:
 
 More information in the metodological note.
 
-[Link all'articolo](http://slow-data.com/associazioni-bipartisan-e-informali-tra-parlamentari-un-bene-o-un-male/)
-
